@@ -1,6 +1,6 @@
 CREATE DATABASE IF NOT EXISTS {{database}};
 
-ALTER DATABASE {database} SET
+ALTER DATABASE {{database}} SET
 	DATA_RETENTION_TIME_IN_DAYS = {{retention_time}};
 
 
