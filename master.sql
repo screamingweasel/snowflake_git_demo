@@ -1,4 +1,4 @@
-EXECUTE IMMEDIATE FROM @git_snowflake_demo/branches/main/script1.sql 
+EXECUTE IMMEDIATE FROM './script1.sql'
 	USING (
 		database=>'{{database}}', 
 		schema=>'{{schema}}', 
