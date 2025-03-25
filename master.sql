@@ -1,1 +1,2 @@
-EXECUTE IMMEDIATE FROM @{{stage_name}}/script1.sql
+EXECUTE IMMEDIATE FROM @git_snowflake_demo/branches/main/script1.sql 
+	USING (database=>'BBB', schema=>'GIT_DEMO', retention_time=>0);
